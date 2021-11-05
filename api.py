@@ -31,7 +31,9 @@ app = Flask(__name__)
 # Please update this path to reflect your own trained model.
 static_model = load_model(
     #path_to_model='assets/trained-models/load_shortfall_simple_lm_regression.pkl')
-    path_to_model='assets/trained-models/clf_model.pkl')
+    #path_to_model='assets/trained-models/clf_model.pkl')
+    path_to_model='assets/trained-models/lm_model.pkl')
+
 print ('-'*40)
 print ('Model successfully loaded')
 print ('-'*40)
