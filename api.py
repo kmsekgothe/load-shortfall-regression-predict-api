@@ -32,7 +32,7 @@ app = Flask(__name__)
 static_model = load_model(
     #path_to_model='assets/trained-models/load_shortfall_simple_lm_regression.pkl')
     #path_to_model='assets/trained-models/clf_model.pkl')
-    path_to_model='assets/trained-models/lm_model.pkl')
+    path_to_model='assets/trained-models/final_lm_model3.pkl')
 
 print ('-'*40)
 print ('Model successfully loaded')
