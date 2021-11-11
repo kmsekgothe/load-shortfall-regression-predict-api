@@ -136,7 +136,7 @@ def _preprocess_data(data):
     Top_features= featureScores.nlargest(38,'Score')
     
     best_features = list(Top_features['Feature'])
-    # Using the KNeighbors Regressor we attain prediction scores for each feature
+    # Using a Selector to attain prediction scores for each feature
     # we then choose the top features that best predict load shortfall 3h
     # these best features list or best cols list stored here lists all which
     # we use to make our prediction
